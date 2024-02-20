@@ -19,7 +19,6 @@ const Page = () => {
 
       <Hero />
 
-      <div className=" h-[40rem]"></div>
       <WhyLeyu />
     </div>
   );

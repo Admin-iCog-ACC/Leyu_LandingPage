@@ -19,5 +19,5 @@ module.exports = {
       backgroundGradientColors: ["gradient-start", "gradient-end"],
     },
   },
-  plugins: [],
+  plugins: []
 };
