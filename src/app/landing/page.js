@@ -5,12 +5,15 @@ import BallCanvas from "./canvas/Ball";
 import letters from "../../constants/letters.js";
 import Image from "next/image";
 import ComputersCanvas from "./canvas/Computer";
+import Hero from "./components/Hero";
+
 
 const Page = () => {
   return (
     <div className="text-center min-h-dvh bg-transparent">
       <StarsCanvas />
       <Navbar />
+      <Hero />
     </div>
   );
 };
