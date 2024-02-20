@@ -5,7 +5,10 @@ import BallCanvas from "./canvas/Ball";
 import letters from "../../constants/letters.js";
 import Image from "next/image";
 import ComputersCanvas from "./canvas/Computer";
+
 import Hero from "./components/Hero";
+
+import WhyLeyu from "./components/WhyLeyu";
 
 
 const Page = () => {
@@ -13,7 +16,11 @@ const Page = () => {
     <div className="text-center min-h-dvh bg-transparent">
       <StarsCanvas />
       <Navbar />
+
       <Hero />
+
+      <div className=" h-[40rem]"></div>
+      <WhyLeyu />
     </div>
   );
 };
