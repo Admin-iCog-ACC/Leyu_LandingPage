@@ -7,23 +7,23 @@ import {fadeIn} from "../../utils/motion"
     const services = [
         {
             index:1,
-          title:"Empowers Local Annotators",
+          title:"Inclusive datasets",
           description: "We move beyond generic datasets, offering accurate data in Amharic, Oromiffa, and Tigrigna."
         },
         {
              index:2,
-          title:"Language",
-          description: "We move beyond generic datasets, offering accurate data in Amharic, Oromiffa, and Tigrigna."
+          title:"Empowers local annotators",
+          description: "Through a crowdsourcing platform, Leyu empowers local annotators, especially women and youth to contribute their voices particularly in AI."
         },
         {
              index:3,
-          title:"Empowers Local Annotators",
-          description: "We move beyond generic datasets, offering accurate data in Amharic, Oromiffa, and Tigrigna."
+          title:"Ethical data use ",
+          description: "We champion ethical data use and fair compensation to fuel local innovation designed for local challenges."
         },
         {
              index:4,
-          title:"Empowers Local Annotators",
-          description: "We move beyond generic datasets, offering accurate data in Amharic, Oromiffa, and Tigrigna."
+          title:"Language",
+          description: "Preserving and Amplifying Ethiopian Voices by collecting data in their native languages, ensuring their voices are heard and reflected in dataset development."
         },
          ]
     const ServiceCard = ({ index, title, description }) => (
@@ -56,7 +56,7 @@ const WhyLeyu = () => {
   return (
     <div className="flex flex-col gap-4 justify-center items-center bg-gray-950 pt-5">
         <div class=" text-4xl bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent font-extrabold">Why Leyu?</div>
-        <div className='mt-20 grid grid-cols-2 max-[910px]:grid-cols-1 gap-10'>
+        <div className='mt-20 grid grid-cols-2 max-[910px]:grid-cols-1 gap-x-64 gap-y-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
