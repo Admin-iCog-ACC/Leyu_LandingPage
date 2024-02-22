@@ -55,7 +55,7 @@ const WhyLeyu = () => {
 
   return (
     <div className="flex flex-col gap-4 justify-center items-center bg-gray-950 pt-5">
-        <div class=" text-4xl bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent font-extrabold">Why Leyu?</div>
+        <div className=" text-4xl bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent font-extrabold">Why Leyu?</div>
         <div className='mt-20 grid grid-cols-2 max-[910px]:grid-cols-1 gap-x-64 gap-y-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

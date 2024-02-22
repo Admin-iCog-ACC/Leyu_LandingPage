@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
 
       <div className="flex gap-20 justify-evenly items-center h-16 px-10 py-12 bg-transparent">
-        <div class=" text-4xl bg-gradient-to-tr text-gradient bg-clip-text text-transparent font-extrabold">
+        <div className=" text-4xl bg-gradient-to-tr text-gradient bg-clip-text text-transparent font-extrabold">
           LEYU
         </div>
         <ul className="flex gap-10 text-white text-lg font-bold ml-20">
