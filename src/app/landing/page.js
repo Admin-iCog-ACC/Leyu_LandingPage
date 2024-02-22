@@ -13,6 +13,7 @@ import Computer from "./components/Computer";
 import WhatWeDo from "./components/WhatWeDo";
 import Values from "./components/Value";
 import Teams from "./components/Teams";
+import Approaches from "./components/Approach";
 
 const Page = () => {
   return (
@@ -23,6 +24,7 @@ const Page = () => {
         <Hero />
       </div>
       <Computer />
+      <Approaches />
       <WhyLeyu />
       <WhatWeDo />
       <Values />

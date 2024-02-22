@@ -29,8 +29,6 @@ const Values = () => {
 
         </div>
 
-        
-        
     </div>
   )
 }

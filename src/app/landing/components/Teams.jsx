@@ -19,7 +19,7 @@ const Teams = () => {
     <div className=''>
     <div className='pt-20'>
         <h1 className='text-[30px] bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent'>A Team <span className='text-[40px] font-bold'>Passionate</span> about <span className='text-[40px] font-bold'>Inclusive AI</span></h1>
-    <div className='flex flex-wrap justify-center items-center h-96 gap-20'>
+    <div className='flex flex-wrap justify-center items-center min-h-96 gap-20'>
     <div className='text-[55px] herotext-gradient font-bold text-center'>
             Our Team
         </div>
@@ -34,7 +34,7 @@ const Teams = () => {
     </div>
     </div>
     <div className='pt-20'>
-    <div className='flex flex-wrap justify-center items-center h-96 gap-20'>
+    <div className='flex flex-wrap justify-center items-center min-h-96 gap-20'>
     <div className='text-[55px] text-white font-bold text-center'>
             Our Partners
     </div>
@@ -45,6 +45,17 @@ const Teams = () => {
 
     </div>
     </div>
+    </div>
+
+    <div className='text-center flex flex-col gap-y-4 text-lg justify-center items-center text-[#21A0C8] py-10 bg-black'>
+      <h1>
+        Join us in bridging the AI gap and driving meaningful change in Ethiopia and across Africa.
+      </h1>
+      <button className='bg-[#095FAF] py-2 px-5 text-white font-bold'>
+          Get In Touch
+      </button>
+        
+
     </div>
 
     </div>
