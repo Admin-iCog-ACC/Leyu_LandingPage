@@ -9,16 +9,17 @@ import ComputersCanvas from "./canvas/Computer";
 import Hero from "./components/Hero";
 
 import WhyLeyu from "./components/WhyLeyu";
-
+import Computer from "./components/Computer";
 
 const Page = () => {
   return (
     <div className="text-center min-h-dvh bg-transparent">
       <StarsCanvas />
-      <Navbar />
-
-      <Hero />
-
+      <div className="h-screen">
+        <Navbar />
+        <Hero />
+      </div>
+      <Computer />
       <WhyLeyu />
     </div>
   );

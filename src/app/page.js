@@ -4,5 +4,9 @@ import Page from "./landing/page";
 import * as THREE from "three";
 
 export default function Home() {
-  return <Page />;
+  return (
+    <div className="">
+      <Page />
+    </div>
+  );
 }
