@@ -26,9 +26,12 @@
 }
 
 .herotext-gradient {
-  background: linear-gradient(180deg, transparent 0%, #000000 100%), 
-              linear-gradient(90deg, #2d7dc8 0%, #02c27d 40%);
+  background: linear-gradient(180deg, transparent 0%, #000000 100%),
+    linear-gradient(90deg, #2d7dc8 0%, #02c27d 40%);
   -webkit-background-clip: text, text;
   -webkit-text-fill-color: transparent;
 }
-
+.diamond-container {
+  transform: rotate(45deg);
+  box-shadow: 32px 32px 32px 0 rgba(45, 1, 149, 0.5);
+}

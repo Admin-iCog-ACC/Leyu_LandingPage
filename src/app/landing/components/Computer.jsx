@@ -13,7 +13,7 @@ const Computer = () => {
     //   <Image src={computer} alt="Computador" className='scale-75'/>
     // </div>
    
-  <div className="h-screen flex justify-center items-center pt-10 bg-black">
+  <div className="h-screen flex justify-center items-center pt-10">
     <div className=' z-10 w-2/3 relative'>
         <Image src={laptop} alt="Computador" className='lg:h-[30rem] h-auto  lg:object-contain block' />
                 <Image src={laptopVideo} alt="Computador" className='-top-3 left-80 absolute lg:h-[30rem] h-auto lg:w-[39rem]  lg:object-contain block' />

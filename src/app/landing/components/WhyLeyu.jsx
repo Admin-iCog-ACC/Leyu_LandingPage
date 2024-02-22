@@ -54,7 +54,7 @@ import {fadeIn} from "../../utils/motion"
 const WhyLeyu = () => {
 
   return (
-    <div className="flex flex-col gap-4 justify-center items-center bg-black pt-5">
+    <div className="flex flex-col gap-4 justify-center items-center pt-5">
         <div className=" text-[50px] bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent font-extrabold">Why Leyu?</div>
         <div className='pt-20 grid grid-cols-2 max-[910px]:grid-cols-1 gap-x-64 gap-y-20'>
         {services.map((service, index) => (

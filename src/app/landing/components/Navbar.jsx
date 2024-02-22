@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
 
-      <div className="flex gap-20 justify-evenly items-center h-16 px-10 py-12 bg-transparent">
+      <div className="flex gap-20 justify-evenly items-center h-16 px-10 py-12 bg-transparent z-20">
         <div className=" text-4xl bg-gradient-to-tr text-gradient bg-clip-text text-transparent font-extrabold">
           LEYU
         </div>
