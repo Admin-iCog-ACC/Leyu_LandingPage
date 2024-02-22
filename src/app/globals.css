@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 @layer utilities {
   .text-balance {
@@ -16,14 +20,13 @@
 }
 
 .text-gradient {
-  background: linear-gradient(90deg, #02C27D 2%, #095FAF 50%);
+  background: linear-gradient(90deg, #02c27d 2%, #095faf 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .herotext-gradient {
-  background: linear-gradient(90deg, #2D7DC8 0%, #02C27D 40%);
+  background: linear-gradient(90deg, #2d7dc8 0%, #02c27d 40%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
