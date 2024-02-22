@@ -41,7 +41,7 @@ const StarsCanvas = () => {
   const totalStars = 13; // Number of stars
 
   return (
-    <div className='min-h-screen flex items-center justify-center absolute -z-10 bg-black'>
+    <div className='min-h-screen flex items-center justify-center absolute z-10 bg-transparent'>
       <div className='w-screen h-screen'>
         <Canvas camera={{ position: [0, 0, 0] }}>
           <Suspense fallback={null}>
