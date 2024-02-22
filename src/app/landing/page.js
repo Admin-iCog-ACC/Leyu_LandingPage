@@ -10,10 +10,12 @@ import Hero from "./components/Hero";
 
 import WhyLeyu from "./components/WhyLeyu";
 import Computer from "./components/Computer";
+import WhatWeDo from "./components/WhatWeDo";
+import Values from "./components/Value";
 
 const Page = () => {
   return (
-    <div className="text-center min-h-dvh bg-transparent">
+    <div className="text-center min-h-dvh bg-black">
       <StarsCanvas />
       <div className="h-screen">
         <Navbar />
@@ -21,6 +23,8 @@ const Page = () => {
       </div>
       <Computer />
       <WhyLeyu />
+      <WhatWeDo />
+      <Values />
     </div>
   );
 };
