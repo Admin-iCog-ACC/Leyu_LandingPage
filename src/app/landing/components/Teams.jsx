@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import icogLabs from '../../../../public/icog-labs.png'
-import singularitynet from '../../../../public/singularitynet.png'
+import singularitynet from '../../../../public/singularitynet.svg'
 import icogacc from '../../../../public/icog-acc.png'
 
 
@@ -12,14 +12,14 @@ const DiamondContainer = () =>
 )
 const SquareContainer = (props) => 
 (
-  <div className='flex justify-center items-center' >
-       <Image src={props.image} alt='partner_image' width={200} height={200} className='object-contain'/>
+  <div className=' self-center shadow-card bg-flex justify-center items-center' >
+       <img src={props.image.src} alt='partner_image' width={250} height={250} className=''/>
   </div>
 )
 
 const Teams = () => {
   return (
-    <div className=''>
+    <div className='px-10'>
     {/* <div className='pt-20'>
         <h1 className='text-[30px] bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent'>A Team <span className='text-[40px] font-bold'>Passionate</span> about <span className='text-[40px] font-bold'>Inclusive AI</span></h1>
     <div className='flex flex-wrap justify-center items-center min-h-96 gap-20'>
@@ -38,12 +38,12 @@ const Teams = () => {
     </div> */}
     <div className=''>
     <div className='flex flex-wrap justify-center items-center min-h-96'>
-    <div className='w-full grid grid-cols-3 gap-20 mx-10'>
+    <div className='w-full grid grid-cols-3 place-items-center self-center gap-20'>
+      <div className='img-white'>
         <SquareContainer image = {icogacc}/>
-        <SquareContainer image = {icogLabs}/>
-        <div className='scale-75'>
-        <SquareContainer image = {singularitynet}/>
-        </div>
+      </div>
+        <SquareContainer image = {icogLabs} className = ""/>
+        <SquareContainer image = {singularitynet} />
     </div>
     </div>
     </div>
