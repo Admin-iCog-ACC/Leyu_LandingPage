@@ -11,7 +11,11 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-gradient": 
+          "radial-gradient(ellipse 80% 50% at 50% -20%,rgb(2,194,125),transparent)",
+          
       },
+
       gradientColorStops: {
         "gradient-start": "#ff00ff", // Replace with your start color
         "gradient-end": "#00ffff", // Replace with your end color
