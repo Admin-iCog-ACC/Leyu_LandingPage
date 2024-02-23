@@ -31,7 +31,7 @@ export default function Navbar({ setActive }) {
     <>
       <nav className="bg-black  fixed w-full z-20 top-0 px-0">
         <div className="md:px-10 px-0 pt-4">
-          <div className="flex justify-between px-3 sm:px-6 lg:px-8 ">
+          <div className="flex justify-between px-4 sm:px-6 lg:px-6 ">
             <div className="flex px-2 lg:px-0">
               <div className="flex-shrink-0 flex items-center">
                 <img
@@ -89,7 +89,7 @@ export default function Navbar({ setActive }) {
               </Link>
             </div>
 
-            <a className=" hidden lg:block px-5 py-[2px] mt-3 rounded-md font-semibold text-md border border-gray-600 text-[#02C27D] bg-slate-900">
+            <a className=" hidden cursor-pointer lg:block px-5 py-[2px] mt-3 rounded-md font-semibold text-md border border-gray-600 text-[#02C27D] bg-slate-900">
               Register
             </a>
 

@@ -42,7 +42,7 @@ const StarsCanvas = () => {
 
   return (
     <div className='flex items-center justify-center absolute z-10 bg-transparent'>
-      <div className='lg:w-[96vw] md:w-[768px] w-[360px] sm:w-[360px] lg:h-[80vh]'>
+      <div className='lg:w-[96vw] md:w-[768px] w-[360px] sm:w-[360px] lg:h-[99vh]'>
         <Canvas camera={{ position: [0, 0, 0] }}>
           <Suspense fallback={null}>
             {Array.from({ length: totalStars }, (_, i) => (

@@ -16,8 +16,8 @@ import Image from 'next/image'
 
 const Values = () => {
   return (
-    <div className='flex justify-evenly gap-x-20 items-center flex-wrap text-center py-20 bg-[#095FAF1A] text-white'>
-        <div className='text-[70px] herotext-gradient font-bold text-center'>
+    <div className='flex justify-evenly px-16 gap-x-20 items-center flex-wrap text-center py-20 bg-[#095FAF1A] text-white'>
+        <div className='lg:text-[70px] text-[50px] lg:pl-1  herotext-gradient font-bold text-center'>
             Our Values
         </div>
 
