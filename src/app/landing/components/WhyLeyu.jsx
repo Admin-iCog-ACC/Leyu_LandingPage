@@ -30,7 +30,7 @@ import {fadeIn} from "../../utils/motion"
   <Tilt className='w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className=' w-[26rem] green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className=' green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -38,12 +38,12 @@ import {fadeIn} from "../../utils/motion"
           scale: 1,
           speed: 450,
         }}
-        className='bg-slate-900 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-slate-900 rounded-[20px] gap-8 min-h-[18rem] py-10 px-8 max-w-[28rem] flex justify-evenly items-center flex-col'
       >
-        <h3 className='text-white text-[22px] font-bold text-center'>
+        <h3 className='text-white max-lg:text-[22px] lg:text-[25px] font-bold text-center'>
           {title}
         </h3>
-        <h3 className='text-white text-[15px] text-center'>
+        <h3 className='text-white max-lg:text-[15px] lg:text-[18px] text-center'>
           {description}
         </h3>
       </div>
@@ -54,7 +54,7 @@ import {fadeIn} from "../../utils/motion"
 const WhyLeyu = () => {
 
   return (
-    <div className="flex flex-col gap-4 justify-center items-center pt-5">
+    <div className="flex flex-col gap-4 justify-center items-center pt-5 px-20">
         <div className=" text-[50px] bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent font-extrabold">Why Leyu?</div>
         <div className='pt-20 grid grid-cols-2 max-[910px]:grid-cols-1 gap-x-64 gap-y-20'>
         {services.map((service, index) => (

@@ -1,9 +1,12 @@
 import React from 'react'
-import computer from "../../../../public/computer.png"
-import laptop from "../../../../public/laptop.png"
-import laptopVideo from "../../../../public/pcVideo.gif"
 
+import tabVideo from "../../../../public/tab-video.gif"
+import tab from "../../../../public/tab.png"
+
+import phoneVideo from "../../../../public/phone-video.gif"
 import phone from "../../../../public/phone.png"
+
+
 
 import Image from 'next/image'
 
@@ -13,12 +16,15 @@ const Computer = () => {
     //   <Image src={computer} alt="Computador" className='scale-75'/>
     // </div>
    
-  <div className="h-screen flex justify-center items-center pt-10">
-    <div className=' z-10 w-2/3 relative'>
-        <Image src={laptop} alt="Computador" className='lg:h-[30rem] h-auto  lg:object-contain block' />
-                <Image src={laptopVideo} alt="Computador" className='-top-3 left-80 absolute lg:h-[30rem] h-auto lg:w-[39rem]  lg:object-contain block' />
-        <Image src={phone} alt="Computador" className='absolute md:h-[25rem] h-auto w-2/3 max-md:w-1/2 object-contain -right-48 max-md:-right-20 top-28'/>
-    </div>    
+  <div className="flex-wrap px-10 h-auto z-20 gap-0 gap-y-20 flex justify-center items-center pt-10">
+        <div className='group'>
+        <Image src={tabVideo} alt='tab video' className=' rounded-3xl hidden group-hover:block'/>
+        <Image src={tab} alt='tab' className='rounded-3xl group-hover:hidden'/>
+        </div>
+        <div className='group self-end'>
+        <Image src={phone} alt='phone' className=' rounded-3xl group-hover:hidden'/>
+        <Image src={phoneVideo} alt='phone video' className=' rounded-3xl hidden group-hover:block'/>
+        </div>
   </div>
   )
 }

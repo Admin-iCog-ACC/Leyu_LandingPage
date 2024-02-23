@@ -14,10 +14,11 @@ import WhatWeDo from "./components/WhatWeDo";
 import Values from "./components/Value";
 import Teams from "./components/Teams";
 import Approaches from "./components/Approach";
+import ThreeDSection from "./components/3DSection";
 
 const Page = () => {
   return (
-    <div className="text-center bg-[#090909]">
+    <div className="text-center bg-[#090909] w-full h-full">
       <StarsCanvas />
       <div className="">
         <Navbar />

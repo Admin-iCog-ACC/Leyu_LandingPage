@@ -17,7 +17,7 @@ import icon from "../../../../public/value_icon.svg"
 
 const Approaches = () => {
   return (
-    <div className='flex justify-center gap-x-20 gap- items-center flex-wrap text-center py-20 text-white'>
+    <div className='flex justify-center gap-x-20 items-center flex-wrap text-center py-20 text-white'>
         <div className='text-[70px] herotext-gradient font-bold text-center'>
             Our Approach
         </div>

@@ -12,15 +12,15 @@ const DiamondContainer = () =>
 )
 const SquareContainer = (props) => 
 (
-  <div className='w-32 h-32 flex justify-center items-center' >
-       <Image src={props.image} alt='partner_image' width={200} height={200}/>
+  <div className='flex justify-center items-center' >
+       <Image src={props.image} alt='partner_image' width={200} height={200} className='object-contain'/>
   </div>
 )
 
 const Teams = () => {
   return (
     <div className=''>
-    <div className='pt-20'>
+    {/* <div className='pt-20'>
         <h1 className='text-[30px] bg-gradient-to-tr from-slate-700 to-white bg-clip-text text-transparent'>A Team <span className='text-[40px] font-bold'>Passionate</span> about <span className='text-[40px] font-bold'>Inclusive AI</span></h1>
     <div className='flex flex-wrap justify-center items-center min-h-96 gap-20'>
     <div className='text-[55px] herotext-gradient font-bold text-center'>
@@ -35,18 +35,15 @@ const Teams = () => {
 
     </div>
     </div>
-    </div>
-    <div className='pt-20'>
-    <div className='flex flex-wrap justify-center items-center min-h-96 gap-20'>
-    <div className='text-[55px] text-white font-bold text-center'>
-            Our Partners
-    </div>
-    <div className='w-2/3 flex flex-wrap gap-44 justify-center items-center'>
+    </div> */}
+    <div className=''>
+    <div className='flex flex-wrap justify-center items-center min-h-96'>
+    <div className='w-full grid grid-cols-3 gap-20 mx-10'>
         <SquareContainer image = {icogacc}/>
         <SquareContainer image = {icogLabs}/>
+        <div className='scale-75'>
         <SquareContainer image = {singularitynet}/>
-
-
+        </div>
     </div>
     </div>
     </div>

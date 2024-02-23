@@ -5,7 +5,7 @@ import * as THREE from "three";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-red-500">
       <Page />
     </div>
   );

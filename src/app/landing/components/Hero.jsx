@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative flex items-center justify-center">
+    <div className="relative flex items-center justify-center h-[80vh]">
     <div className="absolute left-0 w-[13%] h-1/4" style={{backgroundImage: 'radial-gradient(circle, rgba(47, 129, 174, 0.55))'}} />
     <div className="absolute right-0 w-[13%] h-1/4" style={{backgroundImage: 'radial-gradient(circle, rgba(92, 62, 188, 0.55), transparent)'}} />
     <div className={`z-10 `}>
