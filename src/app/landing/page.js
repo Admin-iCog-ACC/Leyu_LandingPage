@@ -15,6 +15,7 @@ import Values from "./components/Value";
 import Teams from "./components/Teams";
 import Approaches from "./components/Approach";
 import ThreeDSection from "./components/3DSection";
+import Footer from "./components/footer";
 
 const Page = () => {
   return (
@@ -30,6 +31,7 @@ const Page = () => {
       <WhatWeDo />
       <Values />
       <Teams />
+      <Footer />
     </div>
   );
 };
