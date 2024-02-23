@@ -9,7 +9,7 @@ import icon from "../../../../public/value_icon.svg"
 
         <div className='flex mt-2'>
            <Image src={icon} width={50} height={50} alt='icon' className='max-lg:hidden'/>
-            <h1 className='ml-3 text-pretty text-left text-white font-normal'>{props.description}</h1>
+            <h1 className='ml-3 text-pretty md:text-left text-center text-white font-normal'>{props.description}</h1>
         </div>
         
     </div>
