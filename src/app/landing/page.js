@@ -15,7 +15,7 @@ import Values from "./components/Value";
 import Teams from "./components/Teams";
 import Approaches from "./components/Approach";
 import ThreeDSection from "./components/3DSection";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 const Page = () => {
   return (
