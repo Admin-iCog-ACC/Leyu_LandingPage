@@ -1,4 +1,7 @@
-import React from 'react'
+import Image from 'next/image';
+import icogLabs from '../../../../public/icog-labs.png'
+import singularitynet from '../../../../public/singularitynet.png'
+import icogacc from '../../../../public/icog-acc.png'
 
 
 const DiamondContainer = () => 
@@ -7,10 +10,10 @@ const DiamondContainer = () =>
        
   </div>
 )
-const SquareContainer = () => 
+const SquareContainer = (props) => 
 (
-  <div className='w-32 h-32  bg-[#303030]' >
-       
+  <div className='w-32 h-32 flex justify-center items-center' >
+       <Image src={props.image} alt='partner_image' width={200} height={200}/>
   </div>
 )
 
@@ -39,9 +42,10 @@ const Teams = () => {
             Our Partners
     </div>
     <div className='w-2/3 flex flex-wrap gap-44 justify-center items-center'>
-        <SquareContainer/>
-        <SquareContainer/>
-        <SquareContainer/>
+        <SquareContainer image = {icogacc}/>
+        <SquareContainer image = {icogLabs}/>
+        <SquareContainer image = {singularitynet}/>
+
 
     </div>
     </div>

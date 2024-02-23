@@ -19,7 +19,7 @@ const Page = () => {
   return (
     <div className="text-center bg-[#090909]">
       <StarsCanvas />
-      <div className="h-screen">
+      <div className="">
         <Navbar />
         <Hero />
       </div>
