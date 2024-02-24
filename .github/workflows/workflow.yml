@@ -55,7 +55,7 @@ jobs:
     steps:
     - name: Pull Docker Image
       run: |
-        docker pull bruklemma/nextjs-app:${{ github.sha }}
+        docker pull bruklemma/leyulanding-app:${{ github.sha }}
     - name: Setup SSH Agent
       uses: webfactory/ssh-agent@v0.5.3
       with:
