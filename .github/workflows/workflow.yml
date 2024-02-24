@@ -66,6 +66,6 @@ jobs:
         ssh -v -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} <<'ENDSSH'
         docker stop leyulanding-app-dev
         docker rm leyulanding-app-dev
-        docker run -d --name leyulanding-app-dev -p 6000:3000 bruklemma/leyulanding-app:${{ github.sha }}
+        docker run -d --name leyulanding-app-dev -p 7000:3000 bruklemma/leyulanding-app:${{ github.sha }}
         docker ps
        
