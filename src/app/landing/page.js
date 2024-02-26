@@ -16,6 +16,7 @@ import Teams from "./components/Teams";
 import Approaches from "./components/Approach";
 import ThreeDSection from "./components/3DSection";
 import Footer from "./components/Footer";
+import Box from "./components/Box"
 
 const Page = () => {
   return (
@@ -25,6 +26,7 @@ const Page = () => {
         <Navbar />
         <Hero />
       </div>
+      {/* <Box /> */}
       <Computer />
       <Approaches />
       <WhyLeyu />

@@ -37,3 +37,11 @@
 .gradient-bg {
   background: linear-gradient(90deg, #43B2F0 0%, #013723 40%);
 }
+
+
+.box-text {
+  background: linear-gradient(to right, #FFFFFF 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

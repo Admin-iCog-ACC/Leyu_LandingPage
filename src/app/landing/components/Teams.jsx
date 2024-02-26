@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import icogLabs from '../../../../public/icog-labs.png'
 import singularitynet from '../../../../public/singularitynet.svg'
-import icogacc from '../../../../public/icog-acc.png'
+import icogacc from '../../../../public/icogwhite.png'
 
 
 const DiamondContainer = () => 
