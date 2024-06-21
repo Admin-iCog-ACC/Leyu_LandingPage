@@ -2,15 +2,19 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    
+
 
 <footer class="bg-[#095FAF1A]   text-white">
     <div class="mx-auto w-full px-5 lg:max-w-[1300px] p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a class="flex items-center">
-                  <span class="self-center text-2xl font-extrabold whitespace-nowrap text-gradient">LEYU</span>
-              </a>
+              <img
+                  className="block cursor-pointer h-12 w-auto"
+                  src="/leyu.png"
+                  alt="Logo"
+                />
+                </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
