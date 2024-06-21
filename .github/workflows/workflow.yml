@@ -38,12 +38,12 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t bruklemma/Leyulanding-app:${{ github.sha }} .
+        docker build -t bruklemma/leyulanding-app:${{ github.sha }} .
 
     - name: Push Docker Image
       run: |
         echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
-        docker push bruklemma/Leyulanding-app:${{ github.sha }}
+        docker push bruklemma/leyulanding-app:${{ github.sha }}
 
   deploy_dev:
     runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
     steps:
     - name: Pull Docker Image
       run: |
-        docker pull bruklemma/nextjs-app:${{ github.sha }}
+        docker bruklemma/leyulanding-app:${{ github.sha }}
     - name: Setup SSH Agent
       uses: webfactory/ssh-agent@v0.5.3
       with:
@@ -64,6 +64,6 @@ jobs:
         ssh -v -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} <<'ENDSSH'
         docker stop Leyulanding-app-dev
         docker rm Leyulanding-app-dev
-        docker run -d --name Leyulanding-app-dev -p 6000:3000 bruklemma/Leyulanding-app:${{ github.sha }}
+        docker run -d --name Leyulanding-app-dev -p 6000:3000 bruklemma/leyulanding-app:${{ github.sha }}
         docker ps
        
