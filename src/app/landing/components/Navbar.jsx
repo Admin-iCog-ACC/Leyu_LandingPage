@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
-
 export default function Navbar({ setActive }) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,8 +23,6 @@ export default function Navbar({ setActive }) {
     window.addEventListener("click", handleClick);
     return () => window.removeEventListener("click", handleClick);
   }, [isOpen]);
-
-
 
   return (
     <>
@@ -78,7 +75,7 @@ export default function Navbar({ setActive }) {
                   </div>
                 </a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/contact">
                 <a
                   className={`border-transparent text-white font-bold  inline-flex items-center px-1 pt-1 border-b-2 text-[18px]`}
                 >
@@ -132,7 +129,7 @@ export default function Navbar({ setActive }) {
                   About Us
                 </a>
               </Link>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior href="/contact">
                 <a
                   onClick={() => setIsOpen(false)}
                   className="block pl-3 pr-4 mb-3 font-semibold text-[20px] text-white "

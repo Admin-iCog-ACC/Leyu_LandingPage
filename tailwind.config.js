@@ -7,13 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      rotate: {
+        custom: "27.2deg", // custom degree rotation
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "hero-gradient": 
+        "hero-gradient":
           "radial-gradient(ellipse 80% 50% at 50% -20%,rgb(2,194,125),transparent)",
-          
       },
 
       gradientColorStops: {
@@ -23,5 +25,5 @@ module.exports = {
       backgroundGradientColors: ["gradient-start", "gradient-end"],
     },
   },
-  plugins: []
+  plugins: [],
 };
